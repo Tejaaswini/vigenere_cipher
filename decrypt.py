@@ -1,3 +1,5 @@
+# step 4: decrypt the text
+
 import csv
 import string
 
