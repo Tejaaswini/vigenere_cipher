@@ -47,8 +47,8 @@ def brute_force_vigenere(ciphertext, key_length, output_file):
             except UnicodeDecodeError:
                 writer.writerow({'Key': key, 'Decrypted Text': decrypted_text})
 
-ciphertext = open("cipher_text_one.txt", "r").read()
+ciphertext = open("cipher_text_two.txt", "r").read()
 key_length = input("Enter the key length: ")
-output_file = 'decrypted_texts_3.csv'
+output_file = 'decrypted_texts_4.csv'
 
 brute_force_vigenere(ciphertext, key_length, output_file)
